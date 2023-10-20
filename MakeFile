@@ -3,4 +3,4 @@ install:
 lint:
 	pylint --disable=R,C project.py
 test:
-	python -m pytest -vv --cov=hello test_project.py
+	python -m pytest -vv --cov=project test_project.py
