@@ -6,4 +6,4 @@ lint:
 	pylint --disable=R,C project.py
 
 test:
-	python -m pytest -vv --cov=project test_hello.py
+	python -m pytest -vv --cov=project test_project.py
